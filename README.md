@@ -30,22 +30,21 @@ The main goal was to practice core React concepts such as state management with 
 - React
 - JavaScript
 - JSX
-- CSS
 
 ## What I Learned
 
 Through this project, I practiced:
 
 - Managing state with `useState`
-- Building controlled components
-- Using props and `children`
+- Building `controlled components`
+- Using `props` and `children`
 - Handling events with `onChange` and `onClick`
 - Conditional rendering
 - Splitting UI into reusable components
 
 ## Note
 
-This project was built as part of a **Challenge exercise from Jonas Schmedtmann's React course on Udemy**.  
+This project was built as part of a Challenge exercise from Jonas Schmedtmann's React course on Udemy.  
 It is not a fully original product idea, but a learning project that I implemented myself to strengthen my understanding of React fundamentals.
 
 ## Possible Improvements
@@ -58,9 +57,8 @@ It is not a fully original product idea, but a learning project that I implement
 ## Getting Started
 
 ```bash
-npm install
-npm run dev
-
+npx create-react-app tip-calculator
+npm start
 ```
 
 
@@ -77,7 +75,7 @@ Reactで作成した、シンプルなチップ計算アプリです。
 ## 概要
 
 このアプリは、React学習の一環として作成した小さなWebアプリです。  
-`useState` を使った状態管理、フォーム入力の処理、条件付きレンダリング、props の受け渡しなど、Reactの基礎を実践しながら学ぶことを目的に作成しました。
+`useState` を使った状態管理、フォーム入力の処理、条件付きレンダリング、`props` の受け渡しなど、Reactの基礎を実践しながら学ぶことを目的に作成しました。
 
 ## 主な機能
 
@@ -92,22 +90,21 @@ Reactで作成した、シンプルなチップ計算アプリです。
 - React
 - JavaScript
 - JSX
-- CSS
 
 ## 学習したこと
 
 このアプリを通して、主に以下を学びました。
 
 - `useState` を使ったstate管理
-- controlled components の基本
-- props と `children` の使い方
+- `controlled components` の基本
+- `props` と `children` の使い方
 - イベント処理 (`onChange`, `onClick`)
 - 条件付きレンダリング
 - シンプルなコンポーネント分割
 
 ## 補足
 
-このプロジェクトは、**UdemyのJonas Schmedtmann氏のReact講座内のChallenge課題**をもとに作成したものです。  
+このプロジェクトは、UdemyのJonas Schmedtmann氏のReact講座内のChallenge課題をもとに作成したものです。  
 完全なオリジナル作品ではありませんが、Reactの基本理解を深めることを目的として、自分で実装しました。
 
 ## 今後の改善案
@@ -120,5 +117,5 @@ Reactで作成した、シンプルなチップ計算アプリです。
 ## 起動方法
 
 ```bash
-npm install
-npm run dev
+npx create-react-app tip-calculator
+npm start
